@@ -1,11 +1,24 @@
 {
-  "name": "bun",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "bun",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"scripts": {
+		"run-server": "bun server/server.ts",
+		"read-text": "bun text/read.ts",
+		"react-console": "bun react/index.tsx",
+		"build-file": "bun build/bundle.js",
+		"create-log": "bun log/index.js",
+		"hash-password": "bun hash/password.js"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@types/react": "^18.2.21",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }

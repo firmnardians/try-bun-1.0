@@ -1,4 +1,4 @@
-# bun
+# bun - Hidup berjalan seperti...
 
 To install dependencies:
 
@@ -6,10 +6,40 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To build:
 
 ```bash
-bun run index.ts
+bun build-file
 ```
 
-This project was created using `bun init` in bun v1.0.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To run server:
+
+```bash
+bun run-server
+```
+
+To read a file:
+
+```bash
+bun read-text
+```
+
+To console a react component
+
+```bash
+bun react-console
+```
+
+To crate a file
+
+```bash
+bun create-log
+```
+
+To hash password
+
+```bash
+bun hash-password
+```
+
+This project was created using `bun` in bun v1.0.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

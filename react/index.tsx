@@ -5,7 +5,7 @@ export default function Home(props: { message: string }) {
 
 	return (
 		<main>
-			{props?.message}
+			<p>{props?.message}</p>
 
 			<h4>{count}</h4>
 			<button onClick={() => setCount((prevState) => prevState + 1)}>Increment</button>
